@@ -35,9 +35,9 @@ public class Main {
 			int port = SocketOpenOfficeConnection.DEFAULT_PORT;
 			
 			
-//			host = "172.16.2.141";// im 
+			host = "172.16.2.141";// im 
 			
-			host = "172.17.20.11";// 预发布
+//			host = "172.17.20.11";// 预发布
 			
 			port = 8100;
 			
