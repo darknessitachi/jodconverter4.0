@@ -6,4 +6,6 @@ jodconverter4.0版本可以转换dps，et，wps，ppt，xlsx，pptx，vsd，doc�
 
 （进入安装目录：/opt/openoffice4/program
 
-执行启动命令：soffice --headless --accept="socket,host=127.0.0.1,port=8100;urp;" --nofirststartwizard &  （centos下验证通过）
+yum install libSM*
+ 
+执行启动命令：./soffice --headless --accept="socket,host=127.0.0.1,port=8100;urp;" --nofirststartwizard &  （centos下验证通过）
