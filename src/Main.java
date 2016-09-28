@@ -31,17 +31,10 @@ public class Main {
 
 		@Override
 		public void run() {
-			String host = SocketOpenOfficeConnection.DEFAULT_HOST;
 			int port = SocketOpenOfficeConnection.DEFAULT_PORT;
-			
-			
-			host = "172.16.2.141";// im 
-			
-//			host = "172.17.20.11";// 预发布
-			
 			port = 8100;
 			
-			OpenOfficeUtil.convert(input, output, host, port);
+			OpenOfficeUtil.convert(input, output, port);
 		}
 	}
 	
